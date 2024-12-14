@@ -1,0 +1,219 @@
+body{
+   background-image: linear-gradient(to bottom, #6684b5, #07daa1);
+    width: 100%;
+    height: 100%;
+
+}
+.Navbar{
+    background-color: #5140401a;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    width: 100%;
+    height: auto;   
+    top: 0;
+    
+}
+ul{
+list-style-type:none;
+display: flex;
+gap: 20px;
+text-align: right;
+font-size: x-large;
+font-family: "Lato", serif;
+}
+
+ a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* Navbar ends */
+a:hover{
+    text-decoration: underline;
+    color: #1b2157;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+.contents {
+    font-family: "Lato", serif;
+    
+    padding: 25px;  
+  font-size: larger;
+  flex-wrap: nowrap;
+   display: flex; /* Enable flex layout */
+  
+
+    
+    
+}
+.flexcontainer2 {
+    display: flex; /* Enable flex layout */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: flex-start; /* Align items at the top */
+    border: 1px solid;
+    
+    font-size: 1.5em;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    gap: 20px; /* Add space font-family: "Lato", serif;between items */
+    
+}
+.about{
+    font-family: "Lato", serif;
+    
+     padding: 25px;  
+   
+    display: flex; /* Enable flex layout */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: flex-start; /* Align items at the top */
+
+
+    
+}
+.about:hover{
+    color: #1b2157;
+    text-decoration: underline;
+}
+
+.sectioncontent {
+    font-family: "Lato", serif;
+    text-align: center; /* Ensure content is aligned properly */
+   
+  
+    
+}
+
+/* accomplishments section s */
+.experience{
+    height:auto;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-family: "Lato", serif;
+    font-size: 1.5em;
+    gap: 15px;
+}
+.experience:hover{
+    color: #1b2157;
+    text-decoration:underline;
+}
+
+.contents{
+   
+    display: flex;
+    align-items: center;
+    border:1px solid;
+    margin-left: 25px;
+    max-width: 600px;
+    text-align: center;
+ 
+
+}
+.contents:hover{
+    color: #000000;
+    
+}
+
+
+.contactform{
+    border-radius: 5px;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Name{
+    padding: 25px;
+    margin: 25px;
+}
+textarea {
+    width: 250px; /* Default width */
+    height: 100px; /* Default height */
+    border-radius:5px ;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: both; /* Allows both horizontal and vertical resizing */
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+textarea:focus {
+    outline: none; /* Removes default blue outline */
+    border-color: #ac9418; /* Highlight border when focused */
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Optional: Adds a glow effect */
+}
+
+.skill-section{
+    border: 1px solid;
+    font-size: larger;    
+    margin: 25px;
+
+}
+.Skillse ul{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+
+}
+.skillse a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #5140401a;
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: rgb(9, 7, 19);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+}
